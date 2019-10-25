@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="bootstrap.css">
+    <title>ArewaOutFits</title>
+    <!-- internal css -->
+    <style>
+      .mg{
+        margin-top: 70px;
+      }
+      .mg-all{
+        margin: 30px;
+      }
+      body{
+        background-color: rgb(243, 243, 242);
+      }
+     #available:hover{
+        background-color: green;
+        color: black;
+      }
+      .footer img{
+         width: 100px;
+         height: 100px;
+         color:  rgb(243, 243, 242);
+       }
+       .text{
+         color: white;
+       }
+       .footer p{
+         text-align: center;
+       }
+       .fixed-top img{
+         margin-top: 18px;
+       }
+       .mg-left{
+         margin-left: 39%;
+       }
+       .drop{
+         width: 250px;
+       }
+       .footer{
+         height: 170px;
+         margin-top: 80px;
+       }
+        .fixed-top{
+          position: fixed;
+        }
+       .mg-mg{
+         margin-top: 70px;
+       }
+       .bars ul{
+         margin-left: 65%;
+       }
+       .bars ul li{
+         margin-left: 40px;
+       }
+    </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+          <a class="navbar-brand" href="#">ArewaOutFits</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse bars" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="bindex.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Contact
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+                  <a class="dropdown-item text" href="surveyform.html">Customer</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text" href="contactpage.html">Retailer/WholeSaler</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text" href="feedback.html">Feedback</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="aboutpage.html">About</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="row">
+          <div class="col-md-3 col-sd-3 mg">
+              <div id="list-example" class="list-group" style="background-color:rgb(160, 245, 245)">
+                <h4 class="mg-all">Female's Outfits</h4>
+                  <a class="list-group-item list-group-item-action" href="#list-item-1">Hijjabs and Turbans</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2">Abaya</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-3">Atamfa</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4">Shoes</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-5">Laces</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-6">Materials</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-7">Skirts and Wristwatches</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-8">Shadda</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-9">Fulani Attires</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-10">Jewelries</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-11">Blouse</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-12">Niqabs</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-12">MakeUp Kit</a>
+                  <h4 class="mg-all">Male's Outfit</h4>
+                  <a class="list-group-item list-group-item-action" href="#list-item-1">Kaftan</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2">T-Shirts</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-3">Wristwatches</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4">Caps</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-5">Trousers</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-6">Shoes</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-7">Perfumes</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-8">Shadda</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-9">Yadi</a>
+                  <h4 class="mg-all">Order</h4>
+                  <a class="list-group-item list-group-item-action" href="#list-item-1">In Pieces</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2">In Bulk</a>
+                </div>
+                <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+                  <h6 id="list-item-1" class="mg-all" title="Fill Our Contact Form">Wholesalers</h6>
+                  <h6 id="list-item-2" class="mg-all" title="Fill Our Contact Form">Retailers</h6>
+                  <h6 id="list-item-3" class="mg-all" title="Fill Our Contact Form or call 08165719639">Customers</h6>
+                </div>
+          </div>
+          <div class="col-md-9 mg-mg">
+            <div class="container">
+                <div class="alert alert-primary" role="alert">
+                    <b>Discount!</b> of <i>2 to 10%</i> on the purchase of more than 1 item and <i>5%</i>
+                     for <i>Regular Customers</i> after the first purchase.&nbsp;
+                       <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+                        Register
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalScrollableTitle">Register With Us</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="container">
+                                    <div class="form-group row">
+                                      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                      <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                      </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                                      <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                      </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <div class="col-sm-10">
+                                        <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" id="gridCheck1">
+                                          <label class="form-check-label" for="gridCheck1">
+                                            Keep me registered
+                                          </label>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-group row">
+                                      <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-primary">Register</button>
+                                      </div>
+                                    </div>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div></i>
+                    </div>
+              <h2>Shop With Us</h2> 
+              <div class="bd-example">
+                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="slider9.jpg" class="d-block w-100" alt="" height="500px">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5 id="materials">Materials</h5>
+                        <p>Soft and Silky</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="slider15.jpg" class="d-block w-100" alt="" height="500px">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Turbans</h5>
+                        <p>For the comfort of your hair.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="slider19.jpg" class="d-block w-100" alt="" height="500px">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Veils</h5>
+                        <p>Adds more color to your outfit.</p>
+                      </div>
+                    </div>
+                     <div class="carousel-item">
+                      <img src="slider11.jpeg" class="d-block w-100" alt="" height="500px">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Hijjabs</h5>
+                        <p>Learn to cover up Ladies.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="slider18.jpg" class="d-block w-100" alt="" height="500px">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Atamfa</h5>
+                        <p>Brings out your natural look.</p>
+                      </div>
+                    </div>
+                 </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            <h2>Female's Outfits</h2>
+            <div class="row">
+                <div class="col-md-2">
+                    <h4>Abaya</h4>
+                  </div>
+              <div class="col-md-2">
+                <img src="img1.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 1 <br>
+                  <b>Price: </b>N5000
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img2.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 2 <br>
+                  <b>Price: </b>N5500
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img3.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 3 <br>
+                  <b>Price: </b>N5500
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img4.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 4 <br>
+                  <b>Price: </b>N6500
+                </p>
+              </div>
+              <div class="col-md-2">
+                  <img src="img14.jpg" alt="" class="img-fluid">
+                  <p style="text-align: center;">Item no: 5 <br>
+                    <b>Price: </b>N5700
+                  </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <h4 id="HT">Hijjabs and Turbans</h4>
+                  </div>
+              <div class="col-md-2">
+                <img src="img7.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 6 <br>
+                  <b>Price: </b>N1600
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img10.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 7 <br>
+                  <b>Price: </b>N3600
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img11.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 8 <br>
+                  <b>Price: </b>N1500
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img12.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 9 <br>
+                  <b>Price: </b>N2700
+                </p>
+              </div>
+              <div class="col-md-2">
+                  <img src="img13.jpg" alt="" class="img-fluid">
+                  <p style="text-align: center;">Item no: 10 <br>
+                    <b>Price: </b>N2000
+                  </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <h4>Hijjabs and Turbans</h4>
+                  </div>
+              <div class="col-md-2">
+                <img src="img8.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 11 <br>
+                  <b>Price: </b>N1500
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img9.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 12 <br>
+                  <b>Price: </b>N1400
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img16.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 13 <br>
+                  <b>Price: </b>N3000
+                </p>
+              </div>
+              <div class="col-md-2">
+                <img src="img12.jpg" alt="" class="img-fluid">
+                <p style="text-align: center;">Item no: 14 <br>
+                  <b>Price: </b>N2700
+                </p>
+              </div>
+              <div class="col-md-2">
+                  <img src="img13.jpg" alt="" class="img-fluid">
+                  <p style="text-align: center;">Item no: 15 <br>
+                    <b>Price: </b>N2000
+                  </p>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4 id="materials">Materials</h4>
+                      </div>
+                  <div class="col-md-2">
+                    <img src="img23.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 16 <br>
+                      <b>Price: </b>N8200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img24.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 17 <br>
+                      <b>Price: </b>N8200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img34.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 18 <br>
+                      <b>Price: </b>N8200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img36.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 19 <br>
+                      <b>Price: </b>N8200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                      <img src="img40.jpg" alt="" class="img-fluid">
+                      <p style="text-align: center;">Item no: 20 <br>
+                        <b>Price: </b>N8200
+                      </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Laces</h4>
+                      </div>
+                  <div class="col-md-2">
+                    <img src="img17.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 21 <br>
+                      <b>Price: </b>N9000
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img18.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 22 <br>
+                      <b>Price: </b>N9000
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img19.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 23 <br>
+                      <b>Price: </b>N9000
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img20.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 24 <br>
+                      <b>Price: </b>N9000
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                      <img src="img43.jpg" alt="" class="img-fluid">
+                      <p style="text-align: center;">Item no: 25 <br>
+                        <b>Price: </b>N9000
+                      </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Atamfa</h4>
+                      </div>
+                  <div class="col-md-2">
+                    <img src="img21.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 26 <br>
+                      <b>Price: </b>N7200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img22.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 27 <br>
+                      <b>Price: </b>N7200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img28.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 28 <br>
+                      <b>Price: </b>N7200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img41.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 29 <br>
+                      <b>Price: </b>N7200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                      <img src="img45.jpg" alt="" class="img-fluid">
+                      <p style="text-align: center;">Item no: 30 <br>
+                        <b>Price: </b>N7200
+                      </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Skirts & Wristwatches</h4>
+                      </div>
+                  <div class="col-md-2">
+                    <img src="img15.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 31 <br>
+                      <b>Price: </b>N3200
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img29.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 32 <br>
+                      <b>Price: </b>N2500
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img33.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 33 <br>
+                      <b>Price: </b>N2500
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img30.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 34 <br>
+                      <b>Price: </b>N2500
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                      <img src="img31.jpg" alt="" class="img-fluid">
+                      <p style="text-align: center;">Item no: 35 <br>
+                        <b>Price: </b>N2500
+                      </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <h4>Shoes & Wristwatches</h4>
+                      </div>
+                  <div class="col-md-2">
+                    <img src="img25.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 36 <br>
+                    <b>Price: </b>N2000</p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img26.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 37 <br>
+                    <b>Price: </b>N1600</p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img27.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 38 <br>
+                    <b>Price: </b>N1700</p>
+                  </div>
+                  <div class="col-md-2">
+                    <img src="img32.jpg" alt="" class="img-fluid">
+                    <p style="text-align: center;">Item no: 39 <br>
+                      <b>Price: </b>N2500
+                    </p>
+                  </div>
+                  <div class="col-md-2">
+                      <img src="img35.jpg" alt="" class="img-fluid">
+                      <p style="text-align: center;">Item no: 40 <br>
+                        <b>Price: </b>N2500</p>
+                    </div>
+                </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        <div class="footer bg-info">
+            <img src="facebook2.png" alt="f-icon" class="mg-left" title="NiZahra Ibm">
+            <img src="whatsapp2.png" alt="w-icon" title="+2348165719639">
+            <img src="twitter.png" alt="t-icon" title="@MadoriFatima">
+            <p><small>mail: bintzahra97@gmail.com<br>
+             &copy;2019 ArewaOutfits, All Rights Reserved.</small></p>
+         </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

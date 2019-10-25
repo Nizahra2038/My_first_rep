@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>ArewaOutFits</title>
+    <style>
+        .text{
+         color: white;
+       }
+       .mg-top{
+         margin-top: 20px;
+       }
+       .footer{
+         height: 100px;
+         margin-top: 80px;
+         padding-top: 20px;
+         padding-bottom: 105px;
+       }
+       p:before, 
+         p:after { 
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: 2px solid #000; 
+            margin: auto; 
+        } 
+       .footer p{
+         text-align: center;
+         margin: auto;
+       }
+       body{
+        background-color: rgb(243, 243, 242);
+      }
+      .fixed-top{
+        position: fixed;
+      }
+      .mg-mg{
+        margin-top: 55px;
+      }
+    </style>
+  </head>
+  <body>
+      <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+        <a class="navbar-brand" href="#">ArewaOutFits</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="bindex.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: black;">
+                <a class="dropdown-item text" href="surveyform.html">Customer</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text" href="contactpage.html">Retailer/WholeSaler</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item text" href="feedback.html">Feedback</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="aboutpage.html">About</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+   <div class="container main-form mg-mg">
+      <div class="alert alert-primary" role="alert">
+        <b>Discount!</b> of <i>2 to 10%</i> on the purchase of more than 1 item.
+        </div>
+        <form>
+                <div class="form-group row mg-top">
+                    <label for="inputName3" class="col-sm-1 col-form-label">Title</label>
+                    <div class="col-sm-2">
+                      <input type="name" class="form-control" id="inputName3" placeholder="Title">
+                    </div>
+                  <label for="inputName3" class="col-sm-1 col-form-label">Name</label>
+                  <div class="col-sm-8">
+                    <input type="name" class="form-control" id="inputName3" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-group row mg-top">
+                  <label for="inputEmail3" class="col-sm-1 col-form-label">Email</label>
+                  <div class="col-sm-6">
+                    <input type="email" class="form-control" id="inputEmail3" required placeholder="Email">
+                  </div>
+                  <label for="inputPhone" class="col-sm-1 col-form-label">Phone</label>
+                  <div class="col-sm-4">
+                    <input type="tel" class="form-control" id="inputEmail3" required placeholder="+234...">
+                  </div>
+                </div>
+                <div class="form-group row mg-top">
+                        <label for="inputAddress" class="col-sm-1 col-form-label">Address</label>
+                        <div class="col-sm-11">
+                          <input type="text" class="form-control" id="inputPassword3" required placeholder="House number, street, state">
+                        </div>
+                      </div>
+                <fieldset class="form-group">
+                  <div class="row">
+                    <legend class="col-form-label col-sm-1 pt-0">Order</legend>
+                    <div class="col-sm-5">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          In Pieces
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          In Bulk
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 row mg-top">
+                            <label for="inputNumber" class="col-sm-2 col-form-label">Item No</label>
+                            <div class="col-sm-4">
+                              <input type="number" class="form-control" id="inputPassword3" min="1" max="40" placeholder="Item no...">
+                            </div>
+                          </div>
+                  </div>
+                </fieldset>
+                <div class="form-group row">
+                    <label for="inputItem" class="col-sm-1 col-form-label">Item</label>
+                    <div class="col-sm-11">
+                      <input type="text" class="form-control" id="Item" placeholder="Item" required>
+                    </div>
+                  </div>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <button type="submit" class="btn btn-info">Send</button>
+                  </div>
+                </div>
+              </form>
+              <div class="phone">
+                <p>OR</p>
+              </div>
+   </div>
+   <div class="footer bg-info">
+    <p><small>mail: bintzahra97@gmail.com<br>
+     &copy;2019, ArewaOutfits. All Rights Reserved.</small></p>
+ </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
